@@ -4,4 +4,6 @@ commentator is shimple google chrome extension.
 
 ## What is the commentator
 
-This paragraph is under construction....
+1. It can add comment to the currently showing page.
+
+2. The page with added comments can be downloaded html or pdf format.
