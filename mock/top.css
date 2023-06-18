@@ -1,5 +1,5 @@
 body {
-
+    background-color: #494949;
 }
 
 .top-carousel {
@@ -50,12 +50,52 @@ body {
     bottom: 0;
     left: 0;
     width: 100%;
-    padding: 20px;
+    padding: 8px;
     background-color: rgba(255, 255, 255, 0.8);
 }
 
-.top-card-content p {
+.top-card-content-title {
     margin: 0;
-    font-size: 20px;
+    font-size: 12px;
     color: #333;
+}
+
+.top-card-content-actor {
+    margin: 0;
+    font-size: 8px;
+    color: #333;
+}
+
+.top-card-content-label {
+    margin: 0;
+    font-size: 8px;
+    color: #333;
+}
+
+.top-card-content-createdat {
+    margin: 0;
+    font-size: 8px;
+    color: #333;
+    text-align: right;
+}
+
+.top-card-tag-container {
+    position: relative;
+    top: 4px;
+    left: 4px;
+    z-index: 1;
+}
+
+.top-card-tag {
+    display: inline-block;
+    padding: 4px 16px;
+    background-color: #333;
+    color: #FAFAFA;
+    text-decoration: none;
+    margin-right: 4px;
+    border-radius: 40px;
+}
+
+.top-card-tag:hover {
+    background-color: #555;
 }
