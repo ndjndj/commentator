@@ -1,4 +1,17 @@
+.top-carousel {
+    text-align: center;
+    background-color: aqua;
+    
+}
 .top-carousel img {
+    max-width: 100%;
+    border-radius: 10px;
+    outline: 2px solid blue;
+    text-align: center;
+}
+
+.top-card img {
+    max-width: 100%;
     border-radius: 10px;
     outline: 2px solid blue;
 }
