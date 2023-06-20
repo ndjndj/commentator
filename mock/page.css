@@ -96,6 +96,12 @@ body {
     margin-right: 8px;
 }
 
+.description {
+    white-space: pre-line;
+    font-size: 18px;
+    color: #FAFAFA;
+}
+
 .top-card-content {
     position: absolute;
     bottom: 0;
