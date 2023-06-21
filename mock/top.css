@@ -3,10 +3,16 @@ body {
     font-family: 'Kosugi Maru', sans-serif;
 }
 
+#header {
+    display: flex;
+    align-items: center;
+    background-color: #F0F0F0;
+    padding: 0;
+    margin: 0;
+}
+
 .top-carousel {
-    text-align: center;
-    background-color: aqua;
-    
+    text-align: center; 
 }
 .top-carousel img {
     max-width: 100%;
