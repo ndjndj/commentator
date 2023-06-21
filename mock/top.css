@@ -150,3 +150,7 @@ body {
 .top-card-tag:hover {
     background-color: #555;
 }
+
+#footer {
+    text-align: center;
+}
