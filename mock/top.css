@@ -45,6 +45,7 @@ body {
 
 .content {
     width: 100%;
+    max-width: 1200px;
     height: auto;
 }
 
@@ -67,8 +68,9 @@ body {
 
 .top-card {
     position: relative;
-    height: 300px;
+    max-width: 300px;
     width: 100%;
+    padding-bottom: 75%;
     border-radius: 10px;
     overflow: hidden;
 }
