@@ -10,6 +10,26 @@ body {
     padding: 0;
 }
 
+#header {
+    display: flex;
+    align-items: center;
+    background-color: #F0F0F0;
+    padding: 10px;
+}
+
+#header-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+#header-title {
+    margin-left: 10px;
+    cursor: pointer;
+}
 .container {
     margin-left: 1%;
     margin-right: 1%;
