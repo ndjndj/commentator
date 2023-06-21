@@ -46,8 +46,6 @@ body {
 .content {
     width: 100%;
     height: auto;
-    display: flex;
-    justify-content: center;
 }
 
 .top-carousel {
@@ -65,13 +63,12 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
-    justify-content: center;
 }
 
 .top-card {
     position: relative;
     height: 300px;
-    max-width: 600px;
+    width: 100%;
     border-radius: 10px;
     overflow: hidden;
 }
